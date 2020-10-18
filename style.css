@@ -1,0 +1,71 @@
+
+/* this is where the content is centered */
+body {
+  margin: 0;
+  background: #F6E27F;
+  color: #252627;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+hr {
+  width: 400px;
+}
+
+/* recieved help from a friend and explained the max-width property */
+article {
+  border: 5px solid #A8B7AB;
+  color: #251605;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;  
+}
+
+main {
+  background-color: #E2C391;
+  padding:  30px;
+}
+/* heading styles */
+h1 {
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+  color: #4B88A2;
+  padding: 10px;
+  height: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #251605;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #4B88A2;
+  padding: 10px;
+  height: 5px;
+}
+
+/* lists looked better aligned left instead of center */
+ul, ol {
+  text-align: left;
+}
+
+a {
+  color: #4B88A2;
+}
+
+a:hover {
+  color: #251605;
+}
+
+
